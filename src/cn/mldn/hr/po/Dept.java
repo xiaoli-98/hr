@@ -22,5 +22,10 @@ public class Dept {
 	public void setLoc(String loc) {
 		this.loc = loc;
 	}
+	@Override
+	public String toString() {
+		return "Dept [did=" + did + ", dnae=" + dnae + ", loc=" + loc + "]";
+	}
+	
 	
 }
